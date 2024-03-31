@@ -24,7 +24,7 @@ const Uploader = () => {
         const progress = Math.round(
           (snapshot.bytesTransferred / snapshot.totalBytes) * 100
         );
-        setProgress(null)
+        setProgress(null);
         setProgress(progress);
       },
       (error) => {
@@ -34,10 +34,8 @@ const Uploader = () => {
         getDownloadURL(uploadTask.snapshot.ref).then((downloadURL) => {
           setUrl(downloadURL);
         });
-        setFile(null)
-
+        setFile(null);
       }
-      
     );
   };
 
@@ -123,4 +121,3 @@ const Button = styled.button`
 const Input = styled.input`
   margin: 0 0 1rem 4rem;
 `;
-
