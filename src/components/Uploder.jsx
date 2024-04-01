@@ -7,11 +7,9 @@ const Uploader = () => {
   const [file, setFile] = useState(null);
   const [progress, setProgress] = useState(0);
   const [url, setUrl] = useState("");
-
   const onFileChange = (event) => {
     setFile(event.target.files[0]);
   };
-
   const fileUploader = async () => {
     if (!file) return;
 
