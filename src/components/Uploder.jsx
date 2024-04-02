@@ -62,7 +62,6 @@ const Container = styled.div`
   align-items: center;
   justify-content: center;
 `;
-
 const Card = styled.div`
   border-radius: 10px;
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
@@ -75,7 +74,6 @@ const Card = styled.div`
     font-weight: 600;
   }
 `;
-
 const DropBox = styled.div`
   margin: 10px 0;
   padding: 30px;
